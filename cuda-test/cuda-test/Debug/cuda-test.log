@@ -1,0 +1,12 @@
+﻿  cuda-test.cpp
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_fp16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cublasCreate_v2@4，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cublasDestroy_v2@4，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cublasSetVector@24，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cublasGetVector@24，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cublasSetMatrix@28，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cublasSgemv_v2@48，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cudaMalloc@8，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+cuda-test.obj : error LNK2019: 无法解析的外部符号 _cudaFree@4，该符号在函数 "void __cdecl matrixAdd(float *,float *,float *,float *,int,int)" (?matrixAdd@@YAXPAM000HH@Z) 中被引用
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cublas.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\wanlei\source\repos\cuda-test\Debug\cuda-test.exe : fatal error LNK1120: 8 个无法解析的外部命令
