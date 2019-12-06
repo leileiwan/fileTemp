@@ -1,0 +1,8 @@
+000b:fixme:winediag:start_process Wine Staging 4.21 is a testing version containing experimental patches.
+000b:fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+0014:err:winediag:xrandr12_init_modes Broken NVIDIA RandR detected, falling back to RandR 1.0. Please consider using the Nouveau driver instead.
+000b:err:winediag:xrandr12_init_modes Broken NVIDIA RandR detected, falling back to RandR 1.0. Please consider using the Nouveau driver instead.
+000d:err:winediag:xrandr12_init_modes Broken NVIDIA RandR detected, falling back to RandR 1.0. Please consider using the Nouveau driver instead.
+0024:fixme:nvcuda:cuda_check_table WARNING: Your CUDA version supports a newer interface for Unknown1 then the Wine implementation.
+^C0025:fixme:console:CONSOLE_DefaultHandler Terminating process 23 on event 0
+
